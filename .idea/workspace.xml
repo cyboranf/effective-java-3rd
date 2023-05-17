@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5fc191-2313-4e89-b767-d3c27ba40cd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic1/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic1/topicNo1.java" afterDir="false" />
+    <list default="true" id="7a5fc191-2313-4e89-b767-d3c27ba40cd8" name="Changes" comment="topic no.1 -done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/NutritionFactsBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +32,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/filip/Pulpit/effective-java-3rd",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/filip/Pulpit/effective-java-3rd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.NutritionFactsBuilder">
+    <configuration name="NutritionFactsBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic2.NutritionFactsBuilder" />
+      <module name="javaEffective" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter2.topic2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="topicNo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic1.topicNo1" />
       <module name="javaEffective" />
@@ -78,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NutritionFactsBuilder" />
         <item itemvalue="Application.topicNo1" />
       </list>
     </recent_temporary>
@@ -91,11 +102,25 @@
       <option name="presentableId" value="Default" />
       <updated>1680547636247</updated>
       <workItem from="1680547637424" duration="2000" />
-      <workItem from="1683720716713" duration="3928000" />
+      <workItem from="1683720716713" duration="4905000" />
+      <workItem from="1684319735039" duration="1434000" />
     </task>
+    <task id="LOCAL-00001" summary="topic no.1 -done">
+      <created>1683725876082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683725876082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="topic no1 -done" />
+    <MESSAGE value="topic no.1 -done" />
+    <option name="LAST_COMMIT_MESSAGE" value="topic no.1 -done" />
   </component>
 </project>
