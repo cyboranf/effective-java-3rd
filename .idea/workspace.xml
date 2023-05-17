@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5fc191-2313-4e89-b767-d3c27ba40cd8" name="Changes" comment="topic no.1 -done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/NutritionFactsBuilder.java" afterDir="false" />
+    <list default="true" id="7a5fc191-2313-4e89-b767-d3c27ba40cd8" name="Changes" comment="builder design pattern -done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/builderDesignPattern/CalzonePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/builderDesignPattern/NyPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/builderDesignPattern/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/javabeeansDesignPattern/NutritionFactsJavaBeans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/NutritionFactsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2/topic2/builderDesignPattern/NutritionFactsBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +50,52 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NutritionFactsBuilder">
-    <configuration name="NutritionFactsBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic2.NutritionFactsBuilder" />
+  <component name="RunManager" selected="Application.CalzonePizza">
+    <configuration name="CalzonePizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic2.builderDesignPattern.CalzonePizza" />
       <module name="javaEffective" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter2.topic2.*" />
+          <option name="PATTERN" value="org.example.chapter2.topic2.builderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NutritionFactsBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic2.builderDesignPattern.NutritionFactsBuilder" />
+      <module name="javaEffective" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter2.topic2.javabeeansDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NutritionFactsJavaBeans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic2.javabeeansDesignPattern.NutritionFactsJavaBeans" />
+      <module name="javaEffective" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter2.topic2.javabeeansDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NyPizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter2.topic2.builderDesignPattern.NyPizza" />
+      <module name="javaEffective" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter2.topic2.builderDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalzonePizza" />
+        <item itemvalue="Application.NyPizza" />
+        <item itemvalue="Application.NutritionFactsJavaBeans" />
         <item itemvalue="Application.NutritionFactsBuilder" />
         <item itemvalue="Application.topicNo1" />
       </list>
@@ -103,7 +149,7 @@
       <updated>1680547636247</updated>
       <workItem from="1680547637424" duration="2000" />
       <workItem from="1683720716713" duration="4905000" />
-      <workItem from="1684319735039" duration="1434000" />
+      <workItem from="1684319735039" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="topic no.1 -done">
       <created>1683725876082</created>
@@ -112,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683725876082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="builder design pattern -done">
+      <created>1684321363649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684321363649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="topic no1 -done" />
     <MESSAGE value="topic no.1 -done" />
-    <option name="LAST_COMMIT_MESSAGE" value="topic no.1 -done" />
+    <MESSAGE value="builder design pattern -done" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder design pattern -done" />
   </component>
 </project>

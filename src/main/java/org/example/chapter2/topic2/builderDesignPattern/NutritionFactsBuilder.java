@@ -1,4 +1,4 @@
-package org.example.chapter2.topic2;
+package org.example.chapter2.topic2.builderDesignPattern;
 
 public class NutritionFactsBuilder {
     private final int servingSize;
